@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		14FC0E3CA05CB2BE84EDF524 /* Pods_ProceduresNavigator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F558B1B085BF74A5957E58A /* Pods_ProceduresNavigator.framework */; };
 		A2F1CF4E55BE37812A2D20D4 /* Pods_ProceduresNavigatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C410772995803870E114E316 /* Pods_ProceduresNavigatorTests.framework */; };
-		EB4D2CB620C402670025E456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4D2CB420C402670025E456 /* Main.storyboard */; };
 		EB4D2CB820C402670025E456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4D2CB720C402670025E456 /* Assets.xcassets */; };
 		EB4D2CBB20C402670025E456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4D2CB920C402670025E456 /* LaunchScreen.storyboard */; };
 		EB4D2CD420C407370025E456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CD220C407370025E456 /* AppDelegate.swift */; };
@@ -18,9 +17,24 @@
 		EB4D2CE020C409A80025E456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CDF20C409A80025E456 /* ViewController.swift */; };
 		EB4D2CE720C40B410025E456 /* procedure_details.json in Resources */ = {isa = PBXBuildFile; fileRef = EB4D2CE320C40B410025E456 /* procedure_details.json */; };
 		EB4D2CE820C40B410025E456 /* procedure.json in Resources */ = {isa = PBXBuildFile; fileRef = EB4D2CE420C40B410025E456 /* procedure.json */; };
-		EB4D2CE920C40B410025E456 /* procedure_list.json in Resources */ = {isa = PBXBuildFile; fileRef = EB4D2CE520C40B410025E456 /* procedure_list.json */; };
+		EB4D2CE920C40B410025E456 /* procedures_list.json in Resources */ = {isa = PBXBuildFile; fileRef = EB4D2CE520C40B410025E456 /* procedures_list.json */; };
 		EB4D2CEC20C4101D0025E456 /* JSONData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CEB20C4101D0025E456 /* JSONData.swift */; };
 		EB4D2CEF20C411820025E456 /* ProcedureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CEE20C411820025E456 /* ProcedureTests.swift */; };
+		EB4D2CF120C419CD0025E456 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CF020C419CD0025E456 /* AppCoordinator.swift */; };
+		EB4D2CF420C41AB30025E456 /* UIColor+Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CF320C41AB30025E456 /* UIColor+Styling.swift */; };
+		EB4D2CFB20C421700025E456 /* ProceduresListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CFA20C421700025E456 /* ProceduresListTableViewController.swift */; };
+		EB4D2CFD20C424EF0025E456 /* ProceduresTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CFC20C424EF0025E456 /* ProceduresTableViewCell.swift */; };
+		EB4D2CFF20C426260025E456 /* ReusableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CFE20C426260025E456 /* ReusableElement.swift */; };
+		EB4D2D0120C4269C0025E456 /* AppCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D0020C4269C0025E456 /* AppCoordinatorDelegate.swift */; };
+		EB4D2D0320C427190025E456 /* ProceduresListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D0220C427190025E456 /* ProceduresListViewModel.swift */; };
+		EB4D2D0520C4276C0025E456 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D0420C4276C0025E456 /* DataProvider.swift */; };
+		EB4D2D0720C427C40025E456 /* URL+Creation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D0620C427C40025E456 /* URL+Creation.swift */; };
+		EB4D2D0B20C42BF30025E456 /* UIFont+Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D0A20C42BF30025E456 /* UIFont+Styling.swift */; };
+		EB4D2D0F20C42FD90025E456 /* MockDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D0E20C42FD90025E456 /* MockDataProvider.swift */; };
+		EB4D2D1120C4308D0025E456 /* ProceduresListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D1020C4308D0025E456 /* ProceduresListViewModelTests.swift */; };
+		EB4D2D1520C4322F0025E456 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D1420C4322F0025E456 /* AppCoordinatorTests.swift */; };
+		EB4D2D1720C433020025E456 /* URL+CreationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D1620C433020025E456 /* URL+CreationTests.swift */; };
+		EB4D2D1920C433EB0025E456 /* Observable+Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D1820C433EB0025E456 /* Observable+Decoding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +55,6 @@
 		C410772995803870E114E316 /* Pods_ProceduresNavigatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProceduresNavigatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4668DA043A3C6635A35939 /* Pods-ProceduresNavigatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProceduresNavigatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProceduresNavigatorTests/Pods-ProceduresNavigatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB4D2CAD20C402670025E456 /* ProceduresNavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProceduresNavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB4D2CB520C402670025E456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB4D2CB720C402670025E456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB4D2CBA20C402670025E456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB4D2CBC20C402670025E456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,9 +66,24 @@
 		EB4D2CDF20C409A80025E456 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB4D2CE320C40B410025E456 /* procedure_details.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = procedure_details.json; sourceTree = "<group>"; };
 		EB4D2CE420C40B410025E456 /* procedure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = procedure.json; sourceTree = "<group>"; };
-		EB4D2CE520C40B410025E456 /* procedure_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = procedure_list.json; sourceTree = "<group>"; };
+		EB4D2CE520C40B410025E456 /* procedures_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = procedures_list.json; sourceTree = "<group>"; };
 		EB4D2CEB20C4101D0025E456 /* JSONData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONData.swift; sourceTree = "<group>"; };
 		EB4D2CEE20C411820025E456 /* ProcedureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureTests.swift; sourceTree = "<group>"; };
+		EB4D2CF020C419CD0025E456 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		EB4D2CF320C41AB30025E456 /* UIColor+Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Styling.swift"; sourceTree = "<group>"; };
+		EB4D2CFA20C421700025E456 /* ProceduresListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProceduresListTableViewController.swift; sourceTree = "<group>"; };
+		EB4D2CFC20C424EF0025E456 /* ProceduresTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProceduresTableViewCell.swift; sourceTree = "<group>"; };
+		EB4D2CFE20C426260025E456 /* ReusableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableElement.swift; sourceTree = "<group>"; };
+		EB4D2D0020C4269C0025E456 /* AppCoordinatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorDelegate.swift; sourceTree = "<group>"; };
+		EB4D2D0220C427190025E456 /* ProceduresListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProceduresListViewModel.swift; sourceTree = "<group>"; };
+		EB4D2D0420C4276C0025E456 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		EB4D2D0620C427C40025E456 /* URL+Creation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Creation.swift"; sourceTree = "<group>"; };
+		EB4D2D0A20C42BF30025E456 /* UIFont+Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Styling.swift"; sourceTree = "<group>"; };
+		EB4D2D0E20C42FD90025E456 /* MockDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataProvider.swift; sourceTree = "<group>"; };
+		EB4D2D1020C4308D0025E456 /* ProceduresListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProceduresListViewModelTests.swift; sourceTree = "<group>"; };
+		EB4D2D1420C4322F0025E456 /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
+		EB4D2D1620C433020025E456 /* URL+CreationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+CreationTests.swift"; sourceTree = "<group>"; };
+		EB4D2D1820C433EB0025E456 /* Observable+Decoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Decoding.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,9 +169,11 @@
 		EB4D2CD020C407370025E456 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				EB4D2CDE20C409A80025E456 /* UI */,
-				EB4D2CD920C4097A0025E456 /* Model */,
+				EB4D2CF920C41DEA0025E456 /* Network */,
 				EB4D2CD220C407370025E456 /* AppDelegate.swift */,
+				EB4D2CF220C41A870025E456 /* Extensions */,
+				EB4D2CD920C4097A0025E456 /* Model */,
+				EB4D2CDE20C409A80025E456 /* UI */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -160,9 +190,11 @@
 		EB4D2CDE20C409A80025E456 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				EB4D2CF520C41B420025E456 /* Coordinator */,
 				EB4D2CB920C402670025E456 /* LaunchScreen.storyboard */,
-				EB4D2CB420C402670025E456 /* Main.storyboard */,
 				EB4D2CDF20C409A80025E456 /* ViewController.swift */,
+				EB4D2CF620C41B4E0025E456 /* ViewModels */,
+				EB4D2CF720C41D550025E456 /* Views */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -180,7 +212,7 @@
 			children = (
 				EB4D2CE320C40B410025E456 /* procedure_details.json */,
 				EB4D2CE420C40B410025E456 /* procedure.json */,
-				EB4D2CE520C40B410025E456 /* procedure_list.json */,
+				EB4D2CE520C40B410025E456 /* procedures_list.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -188,6 +220,9 @@
 		EB4D2CE620C40B410025E456 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				EB4D2D1320C4320B0025E456 /* Coordinator */,
+				EB4D2D1220C431B80025E456 /* Network */,
+				EB4D2CF820C41D7A0025E456 /* ViewModels */,
 				EB4D2CED20C411160025E456 /* Models */,
 				EB4D2CEA20C40B510025E456 /* Helpers */,
 			);
@@ -198,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				EB4D2CEB20C4101D0025E456 /* JSONData.swift */,
+				EB4D2D0E20C42FD90025E456 /* MockDataProvider.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -208,6 +244,76 @@
 				EB4D2CEE20C411820025E456 /* ProcedureTests.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		EB4D2CF220C41A870025E456 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D2CF320C41AB30025E456 /* UIColor+Styling.swift */,
+				EB4D2CFE20C426260025E456 /* ReusableElement.swift */,
+				EB4D2D0A20C42BF30025E456 /* UIFont+Styling.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EB4D2CF520C41B420025E456 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D2CF020C419CD0025E456 /* AppCoordinator.swift */,
+				EB4D2D0020C4269C0025E456 /* AppCoordinatorDelegate.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		EB4D2CF620C41B4E0025E456 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D2D0220C427190025E456 /* ProceduresListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EB4D2CF720C41D550025E456 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D2CFA20C421700025E456 /* ProceduresListTableViewController.swift */,
+				EB4D2CFC20C424EF0025E456 /* ProceduresTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EB4D2CF820C41D7A0025E456 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D2D1020C4308D0025E456 /* ProceduresListViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EB4D2CF920C41DEA0025E456 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D2D0420C4276C0025E456 /* DataProvider.swift */,
+				EB4D2D1820C433EB0025E456 /* Observable+Decoding.swift */,
+				EB4D2D0620C427C40025E456 /* URL+Creation.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EB4D2D1220C431B80025E456 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D2D1620C433020025E456 /* URL+CreationTests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EB4D2D1320C4320B0025E456 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D2D1420C4322F0025E456 /* AppCoordinatorTests.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,7 +403,6 @@
 			files = (
 				EB4D2CBB20C402670025E456 /* LaunchScreen.storyboard in Resources */,
 				EB4D2CB820C402670025E456 /* Assets.xcassets in Resources */,
-				EB4D2CB620C402670025E456 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB4D2CE720C40B410025E456 /* procedure_details.json in Resources */,
-				EB4D2CE920C40B410025E456 /* procedure_list.json in Resources */,
+				EB4D2CE920C40B410025E456 /* procedures_list.json in Resources */,
 				EB4D2CE820C40B410025E456 /* procedure.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,9 +485,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB4D2CE020C409A80025E456 /* ViewController.swift in Sources */,
+				EB4D2D0720C427C40025E456 /* URL+Creation.swift in Sources */,
+				EB4D2CFB20C421700025E456 /* ProceduresListTableViewController.swift in Sources */,
 				EB4D2CDC20C4097B0025E456 /* ProcedureDetails.swift in Sources */,
+				EB4D2CF120C419CD0025E456 /* AppCoordinator.swift in Sources */,
+				EB4D2CFF20C426260025E456 /* ReusableElement.swift in Sources */,
 				EB4D2CDD20C4097B0025E456 /* Procedure.swift in Sources */,
+				EB4D2D0520C4276C0025E456 /* DataProvider.swift in Sources */,
+				EB4D2CF420C41AB30025E456 /* UIColor+Styling.swift in Sources */,
+				EB4D2D0320C427190025E456 /* ProceduresListViewModel.swift in Sources */,
 				EB4D2CD420C407370025E456 /* AppDelegate.swift in Sources */,
+				EB4D2CFD20C424EF0025E456 /* ProceduresTableViewCell.swift in Sources */,
+				EB4D2D1920C433EB0025E456 /* Observable+Decoding.swift in Sources */,
+				EB4D2D0120C4269C0025E456 /* AppCoordinatorDelegate.swift in Sources */,
+				EB4D2D0B20C42BF30025E456 /* UIFont+Styling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +506,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4D2D1520C4322F0025E456 /* AppCoordinatorTests.swift in Sources */,
+				EB4D2D1120C4308D0025E456 /* ProceduresListViewModelTests.swift in Sources */,
+				EB4D2D1720C433020025E456 /* URL+CreationTests.swift in Sources */,
 				EB4D2CEC20C4101D0025E456 /* JSONData.swift in Sources */,
+				EB4D2D0F20C42FD90025E456 /* MockDataProvider.swift in Sources */,
 				EB4D2CEF20C411820025E456 /* ProcedureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,14 +526,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EB4D2CB420C402670025E456 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB4D2CB520C402670025E456 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EB4D2CB920C402670025E456 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
