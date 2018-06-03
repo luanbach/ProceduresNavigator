@@ -1,0 +1,6 @@
+framework module Pods_ProceduresNavigatorTests {
+  umbrella header "Pods-ProceduresNavigatorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

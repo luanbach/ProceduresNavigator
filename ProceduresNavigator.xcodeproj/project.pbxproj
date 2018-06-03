@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14FC0E3CA05CB2BE84EDF524 /* Pods_ProceduresNavigator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F558B1B085BF74A5957E58A /* Pods_ProceduresNavigator.framework */; };
+		A2F1CF4E55BE37812A2D20D4 /* Pods_ProceduresNavigatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C410772995803870E114E316 /* Pods_ProceduresNavigatorTests.framework */; };
 		EB4D2CB120C402670025E456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CB020C402670025E456 /* AppDelegate.swift */; };
 		EB4D2CB320C402670025E456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CB220C402670025E456 /* ViewController.swift */; };
 		EB4D2CB620C402670025E456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4D2CB420C402670025E456 /* Main.storyboard */; };
@@ -26,6 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F660A50743FA6211B524D5C /* Pods-ProceduresNavigatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProceduresNavigatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProceduresNavigatorTests/Pods-ProceduresNavigatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		40A8AF87E75314FD27201A1A /* Pods-ProceduresNavigator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProceduresNavigator.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProceduresNavigator/Pods-ProceduresNavigator.release.xcconfig"; sourceTree = "<group>"; };
+		6F558B1B085BF74A5957E58A /* Pods_ProceduresNavigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProceduresNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		803AB505C5E43BF6A0B1E758 /* Pods-ProceduresNavigator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProceduresNavigator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProceduresNavigator/Pods-ProceduresNavigator.debug.xcconfig"; sourceTree = "<group>"; };
+		C410772995803870E114E316 /* Pods_ProceduresNavigatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProceduresNavigatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4668DA043A3C6635A35939 /* Pods-ProceduresNavigatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProceduresNavigatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProceduresNavigatorTests/Pods-ProceduresNavigatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB4D2CAD20C402670025E456 /* ProceduresNavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProceduresNavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4D2CB020C402670025E456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB4D2CB220C402670025E456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14FC0E3CA05CB2BE84EDF524 /* Pods_ProceduresNavigator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F1CF4E55BE37812A2D20D4 /* Pods_ProceduresNavigatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		423BEBE1908BF9B1A53533C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				803AB505C5E43BF6A0B1E758 /* Pods-ProceduresNavigator.debug.xcconfig */,
+				40A8AF87E75314FD27201A1A /* Pods-ProceduresNavigator.release.xcconfig */,
+				DE4668DA043A3C6635A35939 /* Pods-ProceduresNavigatorTests.debug.xcconfig */,
+				2F660A50743FA6211B524D5C /* Pods-ProceduresNavigatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF651D8F54D36B5FB43759E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F558B1B085BF74A5957E58A /* Pods_ProceduresNavigator.framework */,
+				C410772995803870E114E316 /* Pods_ProceduresNavigatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB4D2CA420C402670025E456 = {
 			isa = PBXGroup;
 			children = (
 				EB4D2CAF20C402670025E456 /* ProceduresNavigator */,
 				EB4D2CC420C402680025E456 /* ProceduresNavigatorTests */,
 				EB4D2CAE20C402670025E456 /* Products */,
+				423BEBE1908BF9B1A53533C7 /* Pods */,
+				DF651D8F54D36B5FB43759E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB4D2CCA20C402680025E456 /* Build configuration list for PBXNativeTarget "ProceduresNavigator" */;
 			buildPhases = (
+				3C9FFAA34DAD6B0655D7E46E /* [CP] Check Pods Manifest.lock */,
 				EB4D2CA920C402670025E456 /* Sources */,
 				EB4D2CAA20C402670025E456 /* Frameworks */,
 				EB4D2CAB20C402670025E456 /* Resources */,
+				99574C46A68F64FC64EFAC85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB4D2CCD20C402680025E456 /* Build configuration list for PBXNativeTarget "ProceduresNavigatorTests" */;
 			buildPhases = (
+				6DAB161580227762860BF2EC /* [CP] Check Pods Manifest.lock */,
 				EB4D2CBD20C402670025E456 /* Sources */,
 				EB4D2CBE20C402670025E456 /* Frameworks */,
 				EB4D2CBF20C402670025E456 /* Resources */,
@@ -191,6 +226,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C9FFAA34DAD6B0655D7E46E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProceduresNavigator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DAB161580227762860BF2EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProceduresNavigatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99574C46A68F64FC64EFAC85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProceduresNavigator/Pods-ProceduresNavigator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProceduresNavigator/Pods-ProceduresNavigator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB4D2CA920C402670025E456 /* Sources */ = {
@@ -356,15 +452,13 @@
 		};
 		EB4D2CCB20C402680025E456 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803AB505C5E43BF6A0B1E758 /* Pods-ProceduresNavigator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3P558A84W;
 				INFOPLIST_FILE = ProceduresNavigator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LittleBlueDot.ProceduresNavigator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -374,15 +468,13 @@
 		};
 		EB4D2CCC20C402680025E456 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A8AF87E75314FD27201A1A /* Pods-ProceduresNavigator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3P558A84W;
 				INFOPLIST_FILE = ProceduresNavigator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LittleBlueDot.ProceduresNavigator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -392,17 +484,14 @@
 		};
 		EB4D2CCE20C402680025E456 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE4668DA043A3C6635A35939 /* Pods-ProceduresNavigatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3P558A84W;
 				INFOPLIST_FILE = ProceduresNavigatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LittleBlueDot.ProceduresNavigatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -413,17 +502,14 @@
 		};
 		EB4D2CCF20C402680025E456 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F660A50743FA6211B524D5C /* Pods-ProceduresNavigatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3P558A84W;
 				INFOPLIST_FILE = ProceduresNavigatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LittleBlueDot.ProceduresNavigatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
