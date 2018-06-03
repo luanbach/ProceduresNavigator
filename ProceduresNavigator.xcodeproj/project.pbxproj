@@ -14,7 +14,6 @@
 		EB4D2CD420C407370025E456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CD220C407370025E456 /* AppDelegate.swift */; };
 		EB4D2CDC20C4097B0025E456 /* ProcedureDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CDA20C4097B0025E456 /* ProcedureDetails.swift */; };
 		EB4D2CDD20C4097B0025E456 /* Procedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CDB20C4097B0025E456 /* Procedure.swift */; };
-		EB4D2CE020C409A80025E456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2CDF20C409A80025E456 /* ViewController.swift */; };
 		EB4D2CE720C40B410025E456 /* procedure_details.json in Resources */ = {isa = PBXBuildFile; fileRef = EB4D2CE320C40B410025E456 /* procedure_details.json */; };
 		EB4D2CE820C40B410025E456 /* procedure.json in Resources */ = {isa = PBXBuildFile; fileRef = EB4D2CE420C40B410025E456 /* procedure.json */; };
 		EB4D2CE920C40B410025E456 /* procedures_list.json in Resources */ = {isa = PBXBuildFile; fileRef = EB4D2CE520C40B410025E456 /* procedures_list.json */; };
@@ -35,6 +34,10 @@
 		EB4D2D1520C4322F0025E456 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D1420C4322F0025E456 /* AppCoordinatorTests.swift */; };
 		EB4D2D1720C433020025E456 /* URL+CreationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D1620C433020025E456 /* URL+CreationTests.swift */; };
 		EB4D2D1920C433EB0025E456 /* Observable+Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D1820C433EB0025E456 /* Observable+Decoding.swift */; };
+		EB4D2D1B20C435920025E456 /* ProcedureDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D1A20C435920025E456 /* ProcedureDetailsViewModelTests.swift */; };
+		EB4D2D1D20C435E20025E456 /* ProcedureDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D1C20C435E20025E456 /* ProcedureDetailsViewModel.swift */; };
+		EB4D2D1F20C439CD0025E456 /* ProcedureDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D1E20C439CD0025E456 /* ProcedureDetailsViewController.swift */; };
+		EB4D2D2120C43A8B0025E456 /* ProcedureDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2D2020C43A8B0025E456 /* ProcedureDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +66,6 @@
 		EB4D2CD220C407370025E456 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB4D2CDA20C4097B0025E456 /* ProcedureDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcedureDetails.swift; sourceTree = "<group>"; };
 		EB4D2CDB20C4097B0025E456 /* Procedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Procedure.swift; sourceTree = "<group>"; };
-		EB4D2CDF20C409A80025E456 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB4D2CE320C40B410025E456 /* procedure_details.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = procedure_details.json; sourceTree = "<group>"; };
 		EB4D2CE420C40B410025E456 /* procedure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = procedure.json; sourceTree = "<group>"; };
 		EB4D2CE520C40B410025E456 /* procedures_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = procedures_list.json; sourceTree = "<group>"; };
@@ -84,6 +86,10 @@
 		EB4D2D1420C4322F0025E456 /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
 		EB4D2D1620C433020025E456 /* URL+CreationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+CreationTests.swift"; sourceTree = "<group>"; };
 		EB4D2D1820C433EB0025E456 /* Observable+Decoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Decoding.swift"; sourceTree = "<group>"; };
+		EB4D2D1A20C435920025E456 /* ProcedureDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureDetailsViewModelTests.swift; sourceTree = "<group>"; };
+		EB4D2D1C20C435E20025E456 /* ProcedureDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureDetailsViewModel.swift; sourceTree = "<group>"; };
+		EB4D2D1E20C439CD0025E456 /* ProcedureDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureDetailsViewController.swift; sourceTree = "<group>"; };
+		EB4D2D2020C43A8B0025E456 /* ProcedureDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,7 +198,6 @@
 			children = (
 				EB4D2CF520C41B420025E456 /* Coordinator */,
 				EB4D2CB920C402670025E456 /* LaunchScreen.storyboard */,
-				EB4D2CDF20C409A80025E456 /* ViewController.swift */,
 				EB4D2CF620C41B4E0025E456 /* ViewModels */,
 				EB4D2CF720C41D550025E456 /* Views */,
 			);
@@ -269,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				EB4D2D0220C427190025E456 /* ProceduresListViewModel.swift */,
+				EB4D2D1C20C435E20025E456 /* ProcedureDetailsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 			children = (
 				EB4D2CFA20C421700025E456 /* ProceduresListTableViewController.swift */,
 				EB4D2CFC20C424EF0025E456 /* ProceduresTableViewCell.swift */,
+				EB4D2D1E20C439CD0025E456 /* ProcedureDetailsViewController.swift */,
+				EB4D2D2020C43A8B0025E456 /* ProcedureDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				EB4D2D1020C4308D0025E456 /* ProceduresListViewModelTests.swift */,
+				EB4D2D1A20C435920025E456 /* ProcedureDetailsViewModelTests.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -484,11 +493,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4D2CE020C409A80025E456 /* ViewController.swift in Sources */,
 				EB4D2D0720C427C40025E456 /* URL+Creation.swift in Sources */,
 				EB4D2CFB20C421700025E456 /* ProceduresListTableViewController.swift in Sources */,
 				EB4D2CDC20C4097B0025E456 /* ProcedureDetails.swift in Sources */,
+				EB4D2D1F20C439CD0025E456 /* ProcedureDetailsViewController.swift in Sources */,
 				EB4D2CF120C419CD0025E456 /* AppCoordinator.swift in Sources */,
+				EB4D2D1D20C435E20025E456 /* ProcedureDetailsViewModel.swift in Sources */,
 				EB4D2CFF20C426260025E456 /* ReusableElement.swift in Sources */,
 				EB4D2CDD20C4097B0025E456 /* Procedure.swift in Sources */,
 				EB4D2D0520C4276C0025E456 /* DataProvider.swift in Sources */,
@@ -497,6 +507,7 @@
 				EB4D2CD420C407370025E456 /* AppDelegate.swift in Sources */,
 				EB4D2CFD20C424EF0025E456 /* ProceduresTableViewCell.swift in Sources */,
 				EB4D2D1920C433EB0025E456 /* Observable+Decoding.swift in Sources */,
+				EB4D2D2120C43A8B0025E456 /* ProcedureDetailsView.swift in Sources */,
 				EB4D2D0120C4269C0025E456 /* AppCoordinatorDelegate.swift in Sources */,
 				EB4D2D0B20C42BF30025E456 /* UIFont+Styling.swift in Sources */,
 			);
@@ -507,6 +518,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB4D2D1520C4322F0025E456 /* AppCoordinatorTests.swift in Sources */,
+				EB4D2D1B20C435920025E456 /* ProcedureDetailsViewModelTests.swift in Sources */,
 				EB4D2D1120C4308D0025E456 /* ProceduresListViewModelTests.swift in Sources */,
 				EB4D2D1720C433020025E456 /* URL+CreationTests.swift in Sources */,
 				EB4D2CEC20C4101D0025E456 /* JSONData.swift in Sources */,

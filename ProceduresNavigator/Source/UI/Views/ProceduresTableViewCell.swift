@@ -23,6 +23,7 @@ class ProceduresTableViewCell: UITableViewCell {
         return nameLabel
     }()
 
+    // MARK: - View Setup
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         commonInit()
@@ -34,7 +35,6 @@ class ProceduresTableViewCell: UITableViewCell {
     }
 
     private func commonInit() {
-
         self.contentView.addSubview(iconImageView)
         self.contentView.addSubview(nameLabel)
 
@@ -43,7 +43,7 @@ class ProceduresTableViewCell: UITableViewCell {
             iconImageView.topAnchor.constraint(equalTo: self.contentView.topAnchor),
             iconImageView.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor),
 
-            //set a fixed width and height
+            // Set a fixed width and height
             iconImageView.heightAnchor.constraint(equalToConstant: 64),
             iconImageView.widthAnchor.constraint(equalToConstant: 64)
             ])

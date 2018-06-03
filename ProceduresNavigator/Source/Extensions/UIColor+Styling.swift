@@ -20,4 +20,8 @@ extension UIColor {
     static var detailImageViewBackground: UIColor {
         return .lightGray
     }
+
+    static var detailTitle: UIColor {
+        return .darkText
+    }
 }

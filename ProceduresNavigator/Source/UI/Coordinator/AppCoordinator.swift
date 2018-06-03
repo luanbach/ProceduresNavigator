@@ -30,7 +30,8 @@ final class AppCoordinator {
 
 extension AppCoordinator: AppCoordinatorDelegate {
     func procedureWasSelected(_ procedure: Procedure, fromViewController viewController: UIViewController) {
-        // Do nothing for now
+        let procedureDetailsViewController = ProcedureDetailsViewController(viewModel: ProcedureDetailsViewModel(procedure: procedure))
+        viewController.navigationController?.pushViewController(procedureDetailsViewController, animated: true)
     }
 }
 

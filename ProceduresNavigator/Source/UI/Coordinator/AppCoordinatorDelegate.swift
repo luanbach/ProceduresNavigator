@@ -9,5 +9,6 @@
 import UIKit
 
 protocol AppCoordinatorDelegate: AnyObject {
+    // Responding to a procedure being selected from the Procedures list table.
     func procedureWasSelected(_ procedure: Procedure, fromViewController viewController: UIViewController)
 }

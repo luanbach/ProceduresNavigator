@@ -12,4 +12,8 @@ extension UIFont {
     static var procedureName: UIFont {
         return .boldSystemFont(ofSize: 16)
     }
+
+    static var detailTitle: UIFont {
+        return .boldSystemFont(ofSize: 20)
+    }
 }

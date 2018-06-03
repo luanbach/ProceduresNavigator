@@ -14,7 +14,7 @@ class ProceduresListTableViewController: UIViewController {
     // MARK: - Private
     private let disposeBag = DisposeBag()
 
-    let tableView: UITableView = {
+    private let tableView: UITableView = {
         let tableView = UITableView()
         tableView.backgroundColor = .background
         tableView.registerReusableElement(ProceduresTableViewCell.self)
